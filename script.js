@@ -11,7 +11,7 @@ hamburgerBtn.addEventListener('click', () => {
   toggleBookBtn.addEventListener("click", () => {
     bookExpanded = !bookExpanded;
     bookMore.classList.toggle("hidden");
-    toggleBookBtn.textContent = bookExpanded ? "Show Less" : "Buy on Amazon";
+    toggleBookBtn.textContent = bookExpanded ? "Show Less" : "See More";
   });
 
   // Toggle for About section

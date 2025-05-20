@@ -66,6 +66,17 @@ body {
     color: #222;
     margin: 0;
 }
+.read-toggle-inline {
+    color: #f44;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.read-toggle-inline:hover {
+    text-decoration: underline;
+}
 /* Navigation */
 .nav-links {
     display: flex;
