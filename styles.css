@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    background-color: #fff;
+    color: #222;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Header */
+/* Header */
+.header {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+}
+
+/* Top Contact Bar */
+.top-bar {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.top-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.top-contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.top-contact a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+.header {
+    background-color: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Beautiful Logo */
+/* .logo h1 {
+    font-family: 'Playfair Display', serif;
+   
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #222;
+    margin: 0;
+} */
+.logo h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222;
+    margin: 0;
+}
+/* Navigation */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f44;
+}
+
+/* Hamburger styles */
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: white;
+        border: 1px solid #eee;
+        padding: 1rem;
+        width: 200px;
+        z-index: 999;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+}
+/* Hero */
+.hero {
+    background: url('chalkboard.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 5rem 0;
+}
+.hidden {
+    display: none;
+}
+
+.more-content {
+    margin-top: 1rem;
+}
+.more-content.hidden {
+    display: none;
+}
+
+.more-content {
+    margin-top: 1rem;
+}
+
+.read-toggle {
+    color: #f44;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero-content .text {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.hero-content p {
+    margin: 1rem 0;
+}
+
+.cta {
+    background: #f44;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.hero-content .book img {
+    max-width: 300px;
+    width: 100%;
+}
+
+/* Layout */
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* About */
+.about {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.about-img img {
+    width: 250px;
+    height: auto;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.about-text p {
+    margin: 1rem 0;
+}
+
+.about-text a {
+    color: #f44;
+    font-weight: bold;
+}
+
+.socials a {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .hero-content,
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content .book {
+        margin-top: 2rem;
+    }
+
+    .about-img img {
+        margin-bottom: 1rem;
+    }
+}
