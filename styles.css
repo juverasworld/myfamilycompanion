@@ -59,6 +59,9 @@ body {
     background-color: #fff;
     padding: 1rem 0;
     border-bottom: 1px solid #eee;
+    position:fixed;
+    width: 100%;
+    /* top: 0; */
 }
 
 .nav {
@@ -142,7 +145,7 @@ body {
 .hero {
     background: url('chalkboard.jpg') no-repeat center center/cover;
     color: white;
-    padding: 3rem;
+    padding: 2rem;
 }
 .hidden {
     display: none;
@@ -191,7 +194,7 @@ body {
 }
 
 .cta {
-    background: #f44;
+    background: rgb(47, 100, 74);
     color: white;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -248,13 +251,17 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-
+.hero{
+    padding: 10px;
+}
     .hero-content,
     .about {
         flex-direction: column;
-        text-align: center;
+        /* text-align:justify; */
     }
-
+.sample{
+        text-align:justify;
+}
     .hero-content .book {
         margin-top: 2rem;
     }
