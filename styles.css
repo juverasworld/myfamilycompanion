@@ -18,13 +18,7 @@ body {
     padding: 1rem;
 }
 
-/* Header */
-/* Header */
-.header {
-    background: #fff;
-    border-bottom: 1px solid #eee;
-    padding: 1rem 0;
-}
+
 
 /* Top Contact Bar */
 .top-bar {
@@ -64,15 +58,7 @@ body {
     position: relative;
 }
 
-/* Beautiful Logo */
-/* .logo h1 {
-    font-family: 'Playfair Display', serif;
-   
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #222;
-    margin: 0;
-} */
+
 .logo h1 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 2rem;
@@ -135,7 +121,7 @@ body {
 .hero {
     background: url('chalkboard.jpg') no-repeat center center/cover;
     color: white;
-    padding: 5rem 0;
+    padding: 3rem;
 }
 .hidden {
     display: none;
@@ -212,7 +198,7 @@ body {
     display: flex;
     gap: 2rem;
     align-items: center;
-    padding: 4rem 0;
+    padding: 2rem ;
 }
 
 .about-img img {
