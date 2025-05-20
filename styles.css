@@ -32,9 +32,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: sans-serif;
+    flex-direction: row;
+    /* ✅ This ensures row layout always */
+    flex-wrap: wrap;
+    /* Optional: allows line break if space is tight */
 }
 
+@media (max-width: 480px) {
+    .top-contact {
+        font-size: 0.8rem;
+        /* Optional: reduce font size on very small screens */
+        gap: 0.5rem;
+    }
+}
 .top-contact a {
     color: #333;
     text-decoration: none;
