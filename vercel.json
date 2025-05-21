@@ -5,7 +5,7 @@
       "destination": "https://www.myfamilycompanion.org/$1",
       "permanent": true,
       "condition": {
-        "host": "myfamilycompanion.org"
+        "host": "myfamilycompanion.com"
       }
     },
     {
@@ -13,7 +13,15 @@
       "destination": "https://www.myfamilycompanion.org/$1",
       "permanent": true,
       "condition": {
-        "host": "www.myfamilycompanion.org"
+        "host": "www.myfamilycompanion.com"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://www.myfamilycompanion.org/$1",
+      "permanent": true,
+      "condition": {
+        "host": "myfamilycompanion.org"
       }
     }
   ]
